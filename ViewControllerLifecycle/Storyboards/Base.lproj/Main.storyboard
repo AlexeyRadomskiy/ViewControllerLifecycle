@@ -18,7 +18,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BX5-P7-09q">
                                 <rect key="frame" x="40.5" y="409" width="333" height="78"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="333" id="D71-gh-QqH"/>
                                     <constraint firstAttribute="height" constant="78" id="LnW-8C-S1Q"/>
@@ -34,6 +33,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseBackgroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="ij0-Rn-nfO" kind="show" identifier="" id="Y1c-7E-pqK"/>
@@ -63,7 +63,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EG2-xc-Q59">
                                 <rect key="frame" x="40.5" y="409" width="333" height="78"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="333" id="2iP-rC-S9M"/>
                                     <constraint firstAttribute="height" constant="78" id="35r-vy-XNf"/>
@@ -80,6 +79,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseBackgroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="7D6-Nv-TGP" kind="presentation" modalPresentationStyle="fullScreen" id="suU-T3-5h2"/>
@@ -112,7 +112,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tcf-ZT-n37">
                                 <rect key="frame" x="40.5" y="409" width="333" height="78"/>
-                                <color key="backgroundColor" systemColor="labelColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="333" id="77J-pR-nqk"/>
                                     <constraint firstAttribute="height" constant="78" id="Ub2-jW-61O"/>
@@ -129,6 +128,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseBackgroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="close:" destination="7D6-Nv-TGP" eventType="touchUpInside" id="1da-aG-TxX"/>
